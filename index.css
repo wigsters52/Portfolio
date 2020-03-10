@@ -1,12 +1,54 @@
-.container .nav-bar .nav-item .nav-link {
-    color: black;
+body {
+  background: #2d545e;
+  color: #e1b382;
 
+}
+
+.container .nav-bar .nav-item .nav-link {
+  color: white;
 }
 
 .container .nav-bar .nav-item .nav-link:hover {
-    text-decoration: underline
+  text-decoration: underline;
 }
 
 .col-sm-6 {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.container .nav-bar .nav-item .nav-link {
+  color:
+    #e1b382;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 25%;
+}
+
+.card-body {
+  background-color: #fffff0;
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #2d545e;
+  color: #e1b382;
+  font-weight: bold;
+}
+
+.contact-form {
+  align-content: center;
+}
+
+.link {
+  cursor: text;
 }
