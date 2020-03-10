@@ -1,7 +1,6 @@
 body {
   background: #2d545e;
   color: #e1b382;
-
 }
 
 .container .nav-bar .nav-item .nav-link {
@@ -17,10 +16,8 @@ body {
 }
 
 .container .nav-bar .nav-item .nav-link {
-  color:
-    #e1b382;
+  color: #e1b382;
 }
-
 
 .center {
   display: block;
