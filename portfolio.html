@@ -1,94 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Ryan Wiggins' Website</title>
+  </head>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <link rel="stylesheet" href="index.css" />
-  <title>Ryan Wiggins' Website</title>
-</head>
+  <body>
+    <div class="container">
+      <div class="nav-bar">
+        <!-- Navigation -->
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <h3><a class="nav-link" href="./index.html">Home</a></h3>
+          </li>
+          <li class="nav-item">
+            <h3><a class="nav-link " href="./portfolio.html">Portfolio</a></h3>
+          </li>
+          <li class="nav-item">
+            <h3><a class="nav-link" href="./contact.html">Contact</a></h3>
+          </li>
+        </ul>
+      </div>
+      <br />
+      <br />
+      <br />
 
-<body>
-  <div class="container">
-    <div class="nav-bar">
-      <!-- Navigation -->
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-      </ul>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Comedy Show Finder</h5>
+              <p class="card-text">
+                This application allows you to search for your favorite comedian
+                wherever you might be. This application uses the Bandcamp API
+                for searching shows as well as the Youtube API for watching a
+                video of the artist.
+              </p>
+              <a
+                href="https://unruffled-engelbart-ed15d3.netlify.com/"
+                target="_blank"
+                class="btn"
+                >Go to the application</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Tracalorie: Calorie Tracker</h5>
+              <p class="card-text">
+                An application that tracks your calories per meal.This
+                application uses vanilla javascript for the functionality.
+              </p>
+              <a
+                href="https://vigilant-wing-7ed599.netlify.com/"
+                target="_blank"
+                class="btn "
+                >Go to the application</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Github Finder</h5>
+              <p class="card-text">
+                This application uses the Github API to allow a user to search
+                users and check out their repos.
+              </p>
+              <a
+                href="https://agitated-lamarr-e7ed8c.netlify.com/"
+                target=" _blank"
+                class="btn "
+                >Go to the application</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Movie Fight</h5>
+              <p class="card-text">
+                This application uses the OMDB API to compare two different
+                movies and highlights which movie won certain categories.
+              </p>
+              <a
+                href="https://vigorous-jones-f378ed.netlify.com"
+                target=" _blank"
+                class="btn "
+                >Go to the application</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <br />
-    <br />
-    <br />
-
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Comedy Show Finder</h5>
-            <p class="card-text">
-              This application allows you to search for your favorite comedian
-              wherever you might be. This application uses the Bandcamp API
-              for searching shows as well as the Youtube API for watching a
-              video of the artist.
-            </p>
-            <a href="https://unruffled-engelbart-ed15d3.netlify.com/" target="_blank" class="btn">Go to the
-              application</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Tracalorie: Calorie Tracker</h5>
-            <p class="card-text">
-              An application that tracks your calories per meal.This
-              application uses vanilla javascript for the functionality.
-            </p>
-            <a href="https://vigilant-wing-7ed599.netlify.com/" target="_blank" class="btn ">Go to the application</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Github Finder</h5>
-            <p class="card-text">
-              This application uses the Github API to allow a user to search
-              users and check out their repos.
-            </p>
-            <a href="https://agitated-lamarr-e7ed8c.netlify.com/" target=" _blank" class="btn ">Go to the
-              application</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Movie Fight</h5>
-            <p class="card-text">
-              This application uses the OMDB API to compare two different
-              movies and highlights which movie won certain categories.
-            </p>
-            <a href="https://vigorous-jones-f378ed.netlify.com" target=" _blank" class="btn ">Go to the application</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
