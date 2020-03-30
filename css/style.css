@@ -1,0 +1,35 @@
+/* body {
+  background-image: url('../images/IMG_2425.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+
+  background-repeat: no-repeat;
+} */
+
+body {
+    background-image: url('Portfolio\images\IMG_2425.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+  
+
+.navbar {
+  background-color: #e1a471;
+  opacity: 90%;
+}
+.navbar-brand {
+  color: black;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.back {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  opacity: 20%;
+}
